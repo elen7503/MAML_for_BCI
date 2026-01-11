@@ -1,4 +1,4 @@
-# MAML_for_BCI
+# MAML for BCI
 This repository contains experiments investigating Model-Agnostic Meta-Learning (MAML) for rapid adaptation under neural and decoder drift, with applications to:
 - Synthetic control tasks (continuous trajectory control with drift)
 - EEG motor imagery under within-subject non-stationarity
