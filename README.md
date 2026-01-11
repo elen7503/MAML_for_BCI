@@ -46,12 +46,12 @@ Please download the dataset from the original source:
 https://doi.org/10.13026/C28G6P
 
 After downloading, place the data in the following directory structure:
-
+```text
 files/
 ├── S001/
 ├── S002/
 ├── ...
-
+```
 
 # Running the Code
 1. Install dependencies
