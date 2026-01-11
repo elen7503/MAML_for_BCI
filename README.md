@@ -33,6 +33,7 @@ Two settings are studied:
 ├── files/
 │   └── SXXX/           # EEG dataset (not included)
 │
+├── figures/
 ├── requirements.txt
 └── README.md
 ```
