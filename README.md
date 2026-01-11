@@ -17,23 +17,26 @@ Two settings are studied:
 - Few-shot adaptation using support/query split
 
 # Repository structure
+```text
 .
 ├── src/
-│   ├── utils.py         # Seeding, statistics, helpers
-│   ├── models.py        # Neural network models
-│   ├── eeg_data.py      # EEG loading & task sampling
-│   ├── train.py         # MAML training loops
-│   └── evaluate.py      # Adaptation & evaluation routines
+│   ├── utils.py        # Seeding, statistics, helpers
+│   ├── models.py       # Neural network models
+│   ├── eeg_data.py     # EEG loading & task sampling
+│   ├── train.py        # MAML training loops
+│   └── evaluate.py     # Adaptation & evaluation routines
 │
 ├── notebooks/
-│   ├── demo_stationary.ipynb     # Synthetic drift experiments
-│   └── demo_eeg.ipynb            # EEG within-subject drift
+│   ├── demo_stationary.ipynb   # Synthetic drift experiments
+│   └── demo_eeg.ipynb          # EEG within-subject drift
 │
 ├── files/
-│   └── SXXX/                     # EEG dataset (not included)
+│   └── SXXX/           # EEG dataset (not included)
 │
 ├── requirements.txt
 └── README.md
+```
+
 
 ## Dataset
 The EEG motor imagery dataset used in this project is **not included** in this repository due to licensing and data size considerations.
