@@ -24,7 +24,8 @@ Two settings are studied:
 │   ├── models.py       # Neural network models
 │   ├── eeg_data.py     # EEG loading & task sampling
 │   ├── train.py        # MAML training loops
-│   └── evaluate.py     # Adaptation & evaluation routines
+│   └── evaluate.py     # Evaluation routines
+│   └── control.py      # Adaptation
 │
 ├── notebooks/
 │   ├── demo_stationary.ipynb   # Synthetic drift experiments
